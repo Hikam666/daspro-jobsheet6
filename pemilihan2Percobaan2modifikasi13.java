@@ -16,9 +16,9 @@ public class pemilihan2Percobaan2modifikasi13 {
         System.out.println("-------------------------");
         System.out.println("===== MENU KAFE JTI =====");
         System.out.println("-------------------------");
-        System.out.println("1. Kopi");
-        System.out.println("2. Teh");
-        System.out.println("3. Roti");
+        System.out.println("Kopi");
+        System.out.println("Teh");
+        System.out.println("Roti");
         System.out.println("-------------------------");
         System.out.print("Masukkan angka dari menu yang dipilih: ");
         menu = input13.nextLine();
@@ -32,11 +32,11 @@ public class pemilihan2Percobaan2modifikasi13 {
         System.out.println("-------------------------");
 
         
-        if (menu.equals("1")) {
+        if (menu.equals("Kopi")) {
             harga = 12000;
-        } else if (menu.equals("2")) {
+        } else if (menu.equals("Teh")) {
             harga = 7000;
-        } else if (menu.equals("3")) {
+        } else if (menu.equals("Roti")) {
             harga = 20000;
         } else {
             System.out.println("Menu tidak valid");
